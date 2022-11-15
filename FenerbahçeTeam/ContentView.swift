@@ -8,12 +8,39 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var viewModel=TeamViewModel()
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Text("Fenerbahçe Players").fontWeight(.bold).padding()
+            HStack{
+                Group{
+                    Spacer()
+                    Text("")
+                    Spacer()
+                    Text("Player Name")
+                    Spacer()
+                    Text("Player Age")
+                    Spacer()
+                    Text("Player Score")
+                    Spacer()
+                    Text("Player Vale")
+                    Spacer()
+                }
+            }
+            List (viewModel.team){ player in
+                HStack{
+                    Image("fener").clipShape(Circle())
+                    Spacer()
+                    Text(player.playerName)
+                    Spacer()
+                    Text(player.playerAge)
+                    Spacer()
+                    Text(player.playerScore)
+                    Spacer()
+                    Text(player.playerValue)
+                    Spacer()
+                }
+            }
         }
         .padding()
     }

@@ -11,6 +11,8 @@
 		0903D39A29238CB4002F0A62 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0903D39929238CB4002F0A62 /* ContentView.swift */; };
 		0903D39C29238CB6002F0A62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0903D39B29238CB6002F0A62 /* Assets.xcassets */; };
 		0903D39F29238CB6002F0A62 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0903D39E29238CB6002F0A62 /* Preview Assets.xcassets */; };
+		0903D3A629238CBF002F0A62 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0903D3A529238CBF002F0A62 /* Team.swift */; };
+		0903D3A829238D21002F0A62 /* TeamViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0903D3A729238D21002F0A62 /* TeamViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		0903D39929238CB4002F0A62 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0903D39B29238CB6002F0A62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0903D39E29238CB6002F0A62 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0903D3A529238CBF002F0A62 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		0903D3A729238D21002F0A62 /* TeamViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				0903D39929238CB4002F0A62 /* ContentView.swift */,
 				0903D39B29238CB6002F0A62 /* Assets.xcassets */,
 				0903D39D29238CB6002F0A62 /* Preview Content */,
+				0903D3A529238CBF002F0A62 /* Team.swift */,
+				0903D3A729238D21002F0A62 /* TeamViewModel.swift */,
 			);
 			path = "FenerbahçeTeam";
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0903D3A629238CBF002F0A62 /* Team.swift in Sources */,
+				0903D3A829238D21002F0A62 /* TeamViewModel.swift in Sources */,
 				0903D39A29238CB4002F0A62 /* ContentView.swift in Sources */,
 				0903D39829238CB4002F0A62 /* Fenerbahc_eTeamApp.swift in Sources */,
 			);
